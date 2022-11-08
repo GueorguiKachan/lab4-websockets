@@ -38,7 +38,6 @@ class ElizaEndpoint {
      * Successful connection
      *
      * @param session
-     *
      */
     @OnOpen
     fun onOpen(session: Session) {
