@@ -66,7 +66,7 @@ class ElizaOnOpenMessageHandlerToComplete(private val list: MutableList<String>,
         list.add(message)
         latch.countDown()
         if (list.size == 3) {
-            session.basicRemote.sendText("i think you are dumb")    
+            session.basicRemote.sendText("i think you are dumb")
         }
     }
 }
